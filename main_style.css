@@ -19,7 +19,11 @@ html,body{
     margin: 0;
 }
 
-h1,h2,h3,h4,h5,h6,strong{
+body *{
+    transition: 0.3s;
+}
+
+h1,h2,h3,h4,h5,h6{
 color: var(--mainText);
 font-family: 'Russo One', sans-serif;
 font-weight: 500;
@@ -113,6 +117,10 @@ padding: 10px;
 #navigation{
     margin: 0;
     padding: 10px;
+}
+
+#navigation a{
+    color: var(--mainText);
 }
 
 #navigation li{
@@ -213,7 +221,7 @@ padding-top: 30px;
 }
 
 #preview{
-    width: 300px;
+    width: 290px;
     border: 1.5px solid #17a2b8;
     background-color: var(--previewbg);
     padding:15px;
