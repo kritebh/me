@@ -179,7 +179,7 @@ box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 cursor: pointer;
 }
 .theme-dot:hover{
-    border-width:5px;
+    border-width:4px;
 }
 
 #light-mode{
