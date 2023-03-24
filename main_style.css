@@ -263,6 +263,21 @@ padding-top: 30px;
     gap: 50px;
 }
 
+.resume{
+    display: flex;
+    height: 30px;
+    width: 90px;
+    background-color: #eaeaea;
+    padding: 5px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.download{
+    height: 25px;
+    width: 25px;
+}
+
 #skills{
     display: flex;
     justify-content: space-evenly;
