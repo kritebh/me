@@ -179,7 +179,7 @@ box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 cursor: pointer;
 }
 .theme-dot:hover{
-    border-width:4px;
+    border-width:1px;
 }
 
 #light-mode{
@@ -286,6 +286,33 @@ padding-top: 30px;
 
 .social-links{
 text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px; /* spacing between icons */
+  margin-top: 15px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  color: #17a2b8;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a i {
+  margin-right: 6px;
+  font-size: 16px;
+}
+
+.social-links a:hover {
+  color: #1192a3;
 }
 
 .post-wrapper{
