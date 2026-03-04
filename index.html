@@ -1,521 +1,663 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kritebh Lagan Bibhakar | Full Stack Developer</title>
-    <meta name="description" content="Full Stack Developer specializing in React, Node.js, Python, and AI/ML. Building scalable web applications and exploring cutting-edge technologies.">
-    <link rel="stylesheet" href="main_style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-</head>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <meta
+      name="description"
+      content="Full Stack Developer specializing in React, Node.js, Python, and AI/ML. Building scalable web applications and exploring cutting-edge technologies."
+    />
+    <link rel="stylesheet" href="main_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
 
-<body>
-
+  <body>
     <div class="main-container">
+      <!-- Navigation -->
+      <nav class="navbar">
+        <div class="logo">Kritebh.</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-wrapper-nav">
+          <div class="theme-dots">
+            <div
+              class="theme-dot dot-light"
+              data-mode="light"
+              title="Clean Light"
+            ></div>
+            <div
+              class="theme-dot dot-blue"
+              data-mode="blue"
+              title="Midnight"
+            ></div>
+            <div
+              class="theme-dot dot-green"
+              data-mode="green"
+              title="Sage"
+            ></div>
+            <div
+              class="theme-dot dot-purple"
+              data-mode="purple"
+              title="Void"
+            ></div>
+          </div>
+        </div>
+      </nav>
 
-        <!-- Navigation -->
-        <nav class="navbar">
-            <div class="logo">Kritebh.</div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="theme-wrapper-nav">
-                <div class="theme-dots">
-                    <div class="theme-dot dot-light" data-mode="light" title="Clean Light"></div>
-                    <div class="theme-dot dot-blue" data-mode="blue" title="Midnight"></div>
-                    <div class="theme-dot dot-green" data-mode="green" title="Sage"></div>
-                    <div class="theme-dot dot-purple" data-mode="purple" title="Void"></div>
-                </div>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="hero-badge">
+              <i class="fas fa-code"></i> Full Stack Developer
             </div>
-        </nav>
+            <h1 id="hero-headline">
+              Building digital experiences
+              <span class="gradient-text">that matter.</span>
+            </h1>
+            <p class="hero-subtitle">
+              I'm <strong>Kritebh Lagan Bibhakar</strong>, a passionate Full
+              Stack Developer specializing in robust web applications, scalable
+              systems, and creative frontend solutions. Currently exploring the
+              frontiers of <strong>AI & Machine Learning</strong> to build the
+              next generation of intelligent applications.
+            </p>
 
-        <!-- Hero Section -->
-        <section class="hero-section">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <div class="hero-badge">
-                        <i class="fas fa-code"></i> Full Stack Developer
-                    </div>
-                    <h1 id="hero-headline">
-                        Building digital experiences 
-                        <span class="gradient-text">that matter.</span>
-                    </h1>
-                    <p class="hero-subtitle">
-                        I'm <strong>Kritebh Lagan Bibhakar</strong>, a passionate Full Stack Developer specializing in robust web applications, 
-                        scalable systems, and creative frontend solutions. Currently exploring the frontiers of 
-                        <strong>AI & Machine Learning</strong> to build the next generation of intelligent applications.
-                    </p>
-
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">
-                            <span>View My Work</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                        <a href="kritebh_lagan_bibhakar_resume.pdf" target="_blank" class="btn btn-secondary">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            <span>Open Resume</span>
-                        </a>
-                    </div>
-
-                    <div class="hero-stats">
-                        <div class="stat-item">
-                            <div class="stat-number" data-target="60+">0</div>
-                            <div class="stat-label">GitHub Repos</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number" data-target="85+">0</div>
-                            <div class="stat-label">Stars Earned</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number" data-target="3+">0</div>
-                            <div class="stat-label">Years Experience</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <div class="profile-image-wrapper">
-                        <img src="images/klb.jpg" alt="Kritebh Lagan Bibhakar" class="profile-image">
-                        <div class="profile-glow"></div>
-                    </div>
-                    <div class="floating-icons">
-                        <div class="floating-icon" style="--delay: 0s;">
-                            <i class="fab fa-react"></i>
-                        </div>
-                        <div class="floating-icon" style="--delay: 1s;">
-                            <i class="fab fa-node-js"></i>
-                        </div>
-                        <div class="floating-icon" style="--delay: 2s;">
-                            <i class="fab fa-python"></i>
-                        </div>
-                        <div class="floating-icon" style="--delay: 3s;">
-                            <i class="fab fa-js"></i>
-                        </div>
-                        <div class="floating-icon" style="--delay: 0.5s;">
-                            <i class="fab fa-aws"></i>
-                        </div>
-                        <div class="floating-icon" style="--delay: 1.5s;" title="MongoDB">
-                            <i class="fas fa-database"></i>
-                            <span class="icon-label">MongoDB</span>
-                        </div>
-                        <div class="floating-icon" style="--delay: 2.5s;" title="Redis">
-                            <i class="fas fa-bolt"></i>
-                            <span class="icon-label">Redis</span>
-                        </div>
-                        <div class="floating-icon" style="--delay: 3.5s;" title="Google Cloud">
-                            <i class="fab fa-google"></i>
-                            <span class="icon-label">GCP</span>
-                        </div>
-                        <div class="floating-icon" style="--delay: 0.8s;">
-                            <i class="fas fa-brain"></i>
-                            <span class="icon-label">AI/ML</span>
-                        </div>
-                        <div class="floating-icon" style="--delay: 1.8s;">
-                            <i class="fas fa-robot"></i>
-                            <span class="icon-label">ML</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="about" class="fade-in">
-            <div class="section-header">
-                <span class="section-eyebrow">01. About Me</span>
-                <h2>Engineer. Creator. <span class="gradient-text">Learner.</span></h2>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">
+                <span>View My Work</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+              <a
+                href="kritebh_lagan_bibhakar_resume.pdf"
+                target="_blank"
+                class="btn btn-secondary"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>Open Resume</span>
+              </a>
             </div>
 
-            <div class="about-grid">
-                <div class="about-text">
-                    <p>
-                        I believe in technology's power to simplify life and amplify human potential. My journey started
-                        with a curiosity for how things work, leading me to full-stack development where I found my passion
-                        for building solutions that make a real impact.
-                    </p>
-                    <p>
-                        Today, I engineer scalable systems and craft intuitive user interfaces. When I'm not coding, I'm
-                        likely reading about system design, contributing to open source, or exploring the latest in AI/ML.
-                        I'm always learning, always building, and always pushing the boundaries of what's possible.
-                    </p>
-
-                    <div class="social-links">
-                        <a href="https://github.com/kritebh" target="_blank" class="social-link" aria-label="GitHub">
-                            <i class="fab fa-github"></i>
-                            <span>GitHub</span>
-                        </a>
-                        <a href="https://www.linkedin.com/in/kritebh/" target="_blank" class="social-link" aria-label="LinkedIn">
-                            <i class="fab fa-linkedin"></i>
-                            <span>LinkedIn</span>
-                        </a>
-                        <a href="https://twitter.com/kritebh" target="_blank" class="social-link" aria-label="Twitter">
-                            <i class="fab fa-twitter"></i>
-                            <span>Twitter</span>
-                        </a>
-                        <a href="https://kritebh.github.io/me" target="_blank" class="social-link" aria-label="Website">
-                            <i class="fas fa-globe"></i>
-                            <span>Website</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="about-image-card">
-                    <div class="card-glow"></div>
-                    <div class="about-highlights">
-                        <div class="highlight-item">
-                            <i class="fas fa-code"></i>
-                            <div>
-                                <strong>Clean Code</strong>
-                                <p>Writing maintainable, scalable solutions</p>
-                            </div>
-                        </div>
-                        <div class="highlight-item">
-                            <i class="fas fa-rocket"></i>
-                            <div>
-                                <strong>Performance</strong>
-                                <p>Optimized applications that scale</p>
-                            </div>
-                        </div>
-                        <div class="highlight-item">
-                            <i class="fas fa-lightbulb"></i>
-                            <div>
-                                <strong>Innovation</strong>
-                                <p>Exploring AI/ML and cutting-edge tech</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <div class="stat-number" data-target="60+">0</div>
+                <div class="stat-label">GitHub Repos</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number" data-target="85+">0</div>
+                <div class="stat-label">Stars Earned</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number" data-target="3+">0</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
             </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills" class="fade-in">
-            <div class="section-header">
-                <span class="section-eyebrow">02. Technical Skills</span>
-                <h2>Technologies I <span class="gradient-text">Work With</span></h2>
+          </div>
+          <div class="hero-image">
+            <div class="profile-image-wrapper">
+              <img
+                src="images/klb.jpg"
+                alt="Kritebh Lagan Bibhakar"
+                class="profile-image"
+              />
+              <div class="profile-glow"></div>
             </div>
-
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3><i class="fab fa-js"></i> Frontend</h3>
-                    <div class="skills-container">
-                        <span class="skill-pill">JavaScript</span>
-                        <span class="skill-pill">TypeScript</span>
-                        <span class="skill-pill">React</span>
-                        <span class="skill-pill">HTML5</span>
-                        <span class="skill-pill">CSS3</span>
-                        <span class="skill-pill">Tailwind CSS</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-server"></i> Backend</h3>
-                    <div class="skills-container">
-                        <span class="skill-pill">Node.js</span>
-                        <span class="skill-pill">Express.js</span>
-                        <span class="skill-pill">Python</span>
-                        <span class="skill-pill">Django</span>
-                        <span class="skill-pill">REST APIs</span>
-                        <span class="skill-pill">GraphQL</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-database"></i> Database</h3>
-                    <div class="skills-container">
-                        <span class="skill-pill">PostgreSQL</span>
-                        <span class="skill-pill">MongoDB</span>
-                        <span class="skill-pill">Redis</span>
-                        <span class="skill-pill">MySQL</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-cloud"></i> DevOps & Tools</h3>
-                    <div class="skills-container">
-                        <span class="skill-pill">Docker</span>
-                        <span class="skill-pill">AWS</span>
-                        <span class="skill-pill">Git</span>
-                        <span class="skill-pill">CI/CD</span>
-                        <span class="skill-pill">System Design</span>
-                        <span class="skill-pill">WebSockets</span>
-                    </div>
-                </div>
+            <div class="floating-icons">
+              <div class="floating-icon" style="--delay: 0s">
+                <i class="fab fa-react"></i>
+              </div>
+              <div class="floating-icon" style="--delay: 1s">
+                <i class="fab fa-node-js"></i>
+              </div>
+              <div class="floating-icon" style="--delay: 2s">
+                <i class="fab fa-python"></i>
+              </div>
+              <div class="floating-icon" style="--delay: 3s">
+                <i class="fab fa-js"></i>
+              </div>
+              <div class="floating-icon" style="--delay: 0.5s">
+                <i class="fab fa-aws"></i>
+              </div>
+              <div class="floating-icon" style="--delay: 1.5s" title="MongoDB">
+                <i class="fas fa-database"></i>
+                <span class="icon-label">MongoDB</span>
+              </div>
+              <div class="floating-icon" style="--delay: 2.5s" title="Redis">
+                <i class="fas fa-bolt"></i>
+                <span class="icon-label">Redis</span>
+              </div>
+              <div
+                class="floating-icon"
+                style="--delay: 3.5s"
+                title="Google Cloud"
+              >
+                <i class="fab fa-google"></i>
+                <span class="icon-label">GCP</span>
+              </div>
+              <div class="floating-icon" style="--delay: 0.8s">
+                <i class="fas fa-brain"></i>
+                <span class="icon-label">AI/ML</span>
+              </div>
+              <div class="floating-icon" style="--delay: 1.8s">
+                <i class="fas fa-robot"></i>
+                <span class="icon-label">ML</span>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="fade-in">
-            <div class="section-header">
-                <span class="section-eyebrow">03. Featured Projects</span>
-                <h2>Work That <span class="gradient-text">Speaks</span></h2>
-                <p class="section-subtitle">A collection of projects showcasing my skills in full-stack development, AI/ML, and modern web technologies.</p>
+      <!-- About Section -->
+      <section id="about" class="fade-in">
+        <div class="section-header">
+          <span class="section-eyebrow">01. About Me</span>
+          <h2>
+            Engineer. Creator. <span class="gradient-text">Learner.</span>
+          </h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I believe in technology's power to simplify life and amplify human
+              potential. My journey started with a curiosity for how things
+              work, leading me to full-stack development where I found my
+              passion for building solutions that make a real impact.
+            </p>
+            <p>
+              Today, I engineer scalable systems and craft intuitive user
+              interfaces. When I'm not coding, I'm likely reading about system
+              design, contributing to open source, or exploring the latest in
+              AI/ML. I'm always learning, always building, and always pushing
+              the boundaries of what's possible.
+            </p>
+
+            <div class="social-links">
+              <a
+                href="https://github.com/kritebh"
+                target="_blank"
+                class="social-link"
+                aria-label="GitHub"
+              >
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kritebh/"
+                target="_blank"
+                class="social-link"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a
+                href="https://twitter.com/kritebh"
+                target="_blank"
+                class="social-link"
+                aria-label="Twitter"
+              >
+                <i class="fab fa-twitter"></i>
+                <span>Twitter</span>
+              </a>
+              <a
+                href="https://kritebh.github.io/me"
+                target="_blank"
+                class="social-link"
+                aria-label="Website"
+              >
+                <i class="fas fa-globe"></i>
+                <span>Website</span>
+              </a>
             </div>
+          </div>
 
-            <div class="projects-grid">
-
-                <!-- Project 1 - Featured -->
-                <div class="project-card featured">
-                    <div class="project-header">
-                        <span class="project-category">
-                            <i class="fas fa-shopping-cart"></i> E-Commerce
-                        </span>
-                        <div class="project-stats">
-                            <span><i class="fas fa-star"></i> 86</span>
-                            <span><i class="fas fa-code-branch"></i> 75</span>
-                        </div>
-                    </div>
-                    <h3 class="project-title">Django React E-Commerce</h3>
-                    <p class="project-desc">A complete full-stack shopping platform with shopping cart, product reviews, 
-                        PayPal payment integration, and admin dashboard. Built with Django REST Framework and React with Redux 
-                        for state management. Features include user authentication, order management, and product search.</p>
-                    <div class="project-tech">
-                        <span>React</span>
-                        <span>Django</span>
-                        <span>PostgreSQL</span>
-                        <span>Redux</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/kritebh/ecommerce-django-react" target="_blank" class="project-link">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
+          <div class="about-image-card">
+            <div class="card-glow"></div>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <i class="fas fa-code"></i>
+                <div>
+                  <strong>Clean Code</strong>
+                  <p>Writing maintainable, scalable solutions</p>
                 </div>
-
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <span class="project-category">
-                            <i class="fas fa-brain"></i> AI / ML
-                        </span>
-                    </div>
-                    <h3 class="project-title">Sentiment Analysis Transformer</h3>
-                    <p class="project-desc">Browser-based machine learning application using Transformers.js for 
-                        client-side sentiment analysis. Runs entirely in the browser without server dependencies, 
-                        demonstrating edge AI capabilities.</p>
-                    <div class="project-tech">
-                        <span>JavaScript</span>
-                        <span>Transformers.js</span>
-                        <span>ML</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/kritebh/sentiment-analysis-transformer-js" target="_blank" class="project-link">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-rocket"></i>
+                <div>
+                  <strong>Performance</strong>
+                  <p>Optimized applications that scale</p>
                 </div>
-
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <span class="project-category">
-                            <i class="fas fa-gamepad"></i> Real-time Gaming
-                        </span>
-                    </div>
-                    <h3 class="project-title">Multiplayer Tic Tac Toe</h3>
-                    <p class="project-desc">Real-time multiplayer game built with Node.js, React, and Socket.io. 
-                        Features instant state synchronization, room-based gameplay, and live player matching. 
-                        Demonstrates WebSocket expertise and real-time application architecture.</p>
-                    <div class="project-tech">
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>Socket.io</span>
-                        <span>WebSockets</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/kritebh/multiplayer-tic-tac-toe" target="_blank" class="project-link">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-lightbulb"></i>
+                <div>
+                  <strong>Innovation</strong>
+                  <p>Exploring AI/ML and cutting-edge tech</p>
                 </div>
-
-                <!-- Project 4 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <span class="project-category">
-                            <i class="fas fa-tv"></i> Entertainment
-                        </span>
-                    </div>
-                    <h3 class="project-title">Pixel Fusion</h3>
-                    <p class="project-desc">PixelFusion is a powerful image conversion tool that empowers you to manipulate and transform your images right from your web browser. You don't need to rely on any external servers or third-party libraries - everything happens right on your device!
-
-                    </p>
-                    <div class="project-tech">
-                        <span>React</span>
-                        <span>JavaScript</span>
-                        <span>CSS3</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/kritebh/pixelFusion" target="_blank" class="project-link">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 5 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <span class="project-category">
-                            <i class="fas fa-video"></i> Media
-                        </span>
-                    </div>
-                    <h3 class="project-title">React YouTube Clone</h3>
-                    <p class="project-desc">A YouTube clone built with React featuring video browsing, search, 
-                        and playback functionality. Demonstrates proficiency in React hooks, API integration, 
-                        and component architecture.</p>
-                    <div class="project-tech">
-                        <span>React</span>
-                        <span>JavaScript</span>
-                        <span>YouTube API</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/kritebh/react-youtube" target="_blank" class="project-link">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 6 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <span class="project-category">
-                            <i class="fas fa-comments"></i> Communication
-                        </span>
-                    </div>
-                    <h3 class="project-title">Team Messaging App</h3>
-                    <p class="project-desc">A Slack-like team messaging application built with Node.js. Features 
-                        real-time messaging, channels, user management, and file sharing. Demonstrates full-stack 
-                        development skills and real-time communication patterns.</p>
-                    <div class="project-tech">
-                        <span>Node.js</span>
-                        <span>Express</span>
-                        <span>WebSockets</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/kritebh/team_messaging_app_nodejs" target="_blank" class="project-link">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
-
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="view-more">
-                <a href="https://github.com/kritebh?tab=repositories" target="_blank" class="btn btn-secondary">
-                    <i class="fab fa-github"></i> View All Repositories
-                </a>
+      <!-- Skills Section -->
+      <section id="skills" class="fade-in">
+        <div class="section-header">
+          <span class="section-eyebrow">02. Technical Skills</span>
+          <h2>Technologies I <span class="gradient-text">Work With</span></h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3><i class="fab fa-js"></i> Frontend</h3>
+            <div class="skills-container">
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">TypeScript</span>
+              <span class="skill-pill">React</span>
+              <span class="skill-pill">HTML5</span>
+              <span class="skill-pill">CSS3</span>
+              <span class="skill-pill">Tailwind CSS</span>
             </div>
-        </section>
-
-        <!-- Experience Section -->
-        <section id="experience" class="fade-in">
-            <div class="section-header">
-                <span class="section-eyebrow">04. Professional Experience</span>
-                <h2>Where I've <span class="gradient-text">Contributed</span></h2>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-server"></i> Backend</h3>
+            <div class="skills-container">
+              <span class="skill-pill">Node.js</span>
+              <span class="skill-pill">Express.js</span>
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">Django</span>
+              <span class="skill-pill">REST APIs</span>
+              <span class="skill-pill">GraphQL</span>
+              <span class="skill-pill">WebSockets</span>
             </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-database"></i> Database</h3>
+            <div class="skills-container">
+              <span class="skill-pill">PostgreSQL</span>
+              <span class="skill-pill">MongoDB</span>
+              <span class="skill-pill">Redis</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-cloud"></i> DevOps & Tools</h3>
+            <div class="skills-container">
+              <span class="skill-pill">Docker</span>
+              <span class="skill-pill">AWS</span>
+              <span class="skill-pill">Git</span>
+              <span class="skill-pill">CI/CD</span>
+              <span class="skill-pill">System Design</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="experience-timeline">
-                <!-- Job 1 -->
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="exp-header">
-                            <div>
-                                <h4>Full Stack Developer</h4>
-                                <span class="exp-role">Rubick.ai</span>
-                            </div>
-                            <div class="exp-date">Jan 2023 — Present</div>
-                        </div>
-                        <p class="exp-desc">
-                            Engineered robust order management workflows, reducing manual effort by 60% through automation.
-                            Optimized API performance using Redis caching strategies, improving response times by 40%.
-                            Managed AWS/GCP cloud infrastructure, ensuring 99.9% uptime and scalable deployments.
-                            Collaborated with cross-functional teams to deliver high-quality software solutions.
-                        </p>
-                        <div class="exp-tech">
-                            <span>Node.js</span>
-                            <span>React</span>
-                            <span>Redis</span>
-                            <span>AWS</span>
-                            <span>Docker</span>
-                        </div>
-                    </div>
+      <!-- Projects Section -->
+      <section id="projects" class="fade-in">
+        <div class="section-header">
+          <span class="section-eyebrow">03. Featured Projects</span>
+          <h2>Work That <span class="gradient-text">Speaks</span></h2>
+          <p class="section-subtitle">
+            A collection of projects showcasing my skills in full-stack
+            development, AI/ML, and modern web technologies.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 - Featured -->
+          <div class="project-card featured">
+            <div class="project-header">
+              <span class="project-category">
+                <i class="fas fa-shopping-cart"></i> E-Commerce
+              </span>
+              <div class="project-stats">
+                <span><i class="fas fa-star"></i> 86</span>
+                <span><i class="fas fa-code-branch"></i> 75</span>
+              </div>
+            </div>
+            <h3 class="project-title">Django React E-Commerce</h3>
+            <p class="project-desc">
+              A complete full-stack shopping platform with shopping cart,
+              product reviews, PayPal payment integration, and admin dashboard.
+              Built with Django REST Framework and React with Redux for state
+              management. Features include user authentication, order
+              management, and product search.
+            </p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>Django</span>
+              <span>PostgreSQL</span>
+              <span>Redux</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/kritebh/ecommerce-django-react"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-category">
+                <i class="fa-solid fa-terminal"></i> CLI Tool
+              </span>
+            </div>
+            <h3 class="project-title">Codemeter</h3>
+            <p class="project-desc">
+              A powerful and user-friendly CLI tool for analyzing code
+              statistics. Count lines of code, files, and get detailed
+              breakdowns by programming language.
+            </p>
+            <div class="project-tech">
+              <span>JavaScript</span>
+              <span>Nodejs</span>
+              <span>CLI Tool</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://www.npmjs.com/package/codemeter"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fa-brands fa-npm"></i> View on NPM
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-category">
+                <i class="fa-solid fa-paint-roller"></i> Image Editing Tool
+              </span>
+            </div>
+            <h3 class="project-title">Pixel Fusion</h3>
+            <p class="project-desc">
+              PixelFusion is a powerful image conversion tool that empowers you
+              to manipulate and transform your images right from your web
+              browser. You don't need to rely on any external servers or
+              third-party libraries - everything happens right on your device!
+            </p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>CSS3</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://pixelfusion.vercel.app"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fa-solid fa-up-right-from-square"></i> Open Tool
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-category">
+                <i class="fas fa-brain"></i> AI / ML
+              </span>
+            </div>
+            <h3 class="project-title">Sentiment Analysis Transformer</h3>
+            <p class="project-desc">
+              Browser-based machine learning application using Transformers.js
+              for client-side sentiment analysis. Runs entirely in the browser
+              without server dependencies, demonstrating edge AI capabilities.
+            </p>
+            <div class="project-tech">
+              <span>JavaScript</span>
+              <span>Transformers.js</span>
+              <span>ML</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/kritebh/sentiment-analysis-transformer-js"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-category">
+                <i class="fas fa-gamepad"></i> Real-time Gaming
+              </span>
+            </div>
+            <h3 class="project-title">Multiplayer Tic Tac Toe</h3>
+            <p class="project-desc">
+              Real-time multiplayer game built with Node.js, React, and
+              Socket.io. Features instant state synchronization, room-based
+              gameplay, and live player matching. Demonstrates WebSocket
+              expertise and real-time application architecture.
+            </p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>Socket.io</span>
+              <span>WebSockets</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/kritebh/multiplayer-tic-tac-toe"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-category">
+                <i class="fas fa-video"></i> Media
+              </span>
+            </div>
+            <h3 class="project-title">React YouTube Clone</h3>
+            <p class="project-desc">
+              A YouTube clone built with React featuring video browsing, search,
+              and playback functionality. Demonstrates proficiency in React
+              hooks, API integration, and component architecture.
+            </p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>YouTube API</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/kritebh/react-youtube"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 7 -->
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-category">
+                <i class="fas fa-comments"></i> Communication
+              </span>
+            </div>
+            <h3 class="project-title">Team Messaging App</h3>
+            <p class="project-desc">
+              A Slack-like team messaging application built with Node.js.
+              Features real-time messaging, channels, user management, and file
+              sharing. Demonstrates full-stack development skills and real-time
+              communication patterns.
+            </p>
+            <div class="project-tech">
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>WebSockets</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/kritebh/team_messaging_app_nodejs"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="view-more">
+          <a
+            href="https://github.com/kritebh?tab=repositories"
+            target="_blank"
+            class="btn btn-secondary"
+          >
+            <i class="fab fa-github"></i> View All Repositories
+          </a>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="fade-in">
+        <div class="section-header">
+          <span class="section-eyebrow">04. Professional Experience</span>
+          <h2>Where I've <span class="gradient-text">Contributed</span></h2>
+        </div>
+
+        <div class="experience-timeline">
+          <!-- Job 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="exp-header">
+                <div>
+                  <h4>Full Stack Developer</h4>
+                  <span class="exp-role">Rubick.ai</span>
                 </div>
+                <div class="exp-date">June 2023 — Present</div>
+              </div>
+              <p class="exp-desc">
+                Engineered robust order management workflows, reducing manual
+                effort by 60% through automation. Optimized API performance
+                using Redis caching strategies, improving response times by 40%.
+                Managed AWS/GCP cloud infrastructure, ensuring 99.9% uptime and
+                scalable deployments. Collaborated with cross-functional teams
+                to deliver high-quality software solutions.
+              </p>
+              <div class="exp-tech">
+                <span>Node.js</span>
+                <span>React</span>
+                <span>Redis</span>
+                <span>AWS</span>
+                <span>Docker</span>
+              </div>
+            </div>
+          </div>
 
-                <!-- Job 2 -->
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="exp-header">
-                            <div>
-                                <h4>Software Engineer Intern</h4>
-                                <span class="exp-role">Rubick.ai</span>
-                            </div>
-                            <div class="exp-date">Jul 2022 — June 2023</div>
-                        </div>
-                        <p class="exp-desc">
-                            Led frontend development for company homepage, improving user engagement by 35%.
-                            Built RESTful APIs with high test coverage (90%+), ensuring reliability and maintainability.
-                            Integrated payment gateways (Stripe, PayPal) and authentication flows, enabling seamless user experiences.
-                            Participated in code reviews and agile development processes.
-                        </p>
-                        <div class="exp-tech">
-                            <span>React</span>
-                            <span>Node.js</span>
-                            <span>Express</span>
-                            <span>PostgreSQL</span>
-                        </div>
-                    </div>
+          <!-- Job 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="exp-header">
+                <div>
+                  <h4>Software Engineer Intern</h4>
+                  <span class="exp-role">Rubick.ai</span>
                 </div>
+                <div class="exp-date">Jul 2022 — June 2023</div>
+              </div>
+              <p class="exp-desc">
+                Led frontend development for company homepage, improving user
+                engagement by 35%. Built RESTful APIs with high test coverage
+                (90%+), ensuring reliability and maintainability. Integrated
+                payment gateways (Stripe, PayPal) and authentication flows,
+                enabling seamless user experiences. Participated in code reviews
+                and agile development processes.
+              </p>
+              <div class="exp-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>PostgreSQL</span>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="fade-in">
-            <div class="section-header">
-                <span class="section-eyebrow">05. Get In Touch</span>
-                <h2>Let's Build Something <span class="gradient-text">Together</span></h2>
-                <p class="section-subtitle">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+      <!-- Contact Section -->
+      <section id="contact" class="fade-in">
+        <div class="section-header">
+          <span class="section-eyebrow">05. Get In Touch</span>
+          <h2>
+            Let's Build Something <span class="gradient-text">Together</span>
+          </h2>
+          <p class="section-subtitle">
+            I'm always open to discussing new projects, creative ideas, or
+            opportunities to be part of your vision.
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:kritebhlaganbibhakar@gmail.com"
+                  >Available on request</a
+                >
+              </div>
             </div>
-
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div>
-                            <h4>Email</h4>
-                            <a href="mailto:kritebhlaganbibhakar@gmail.com">Available on request</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-linkedin"></i>
-                        </div>
-                        <div>
-                            <h4>LinkedIn</h4>
-                            <a href="https://www.linkedin.com/in/kritebh/" target="_blank">linkedin.com/in/kritebh</a>
-                        </div>
-                    </div>
-                   
-                    
-                </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div>
+                <h4>LinkedIn</h4>
+                <a href="https://www.linkedin.com/in/kritebh/" target="_blank"
+                  >linkedin.com/in/kritebh</a
+                >
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <footer>
-            <div class="footer-content">
-                <p>&copy; 2026 Kritebh Lagan Bibhakar</p>
-            </div>
-        </footer>
-
+      <footer>
+        <div class="footer-content">
+          <p>&copy; 2026 Kritebh Lagan Bibhakar</p>
+        </div>
+      </footer>
     </div>
 
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
